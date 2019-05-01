@@ -3,8 +3,8 @@ import FadeIn from '../transitions/fade-in';
 
 const Header = () => { return(
     <header className="App-header">
-        <FadeIn in={true} duration={600} length={'50px'} direction={'bottom'} >
-            <h1>Clicky Game</h1>
+        <FadeIn in={true} duration={60} length={'50px'} direction={'bottom'} >
+            <h2>Clicky Game</h2>
         </FadeIn>
     </header>
 )};

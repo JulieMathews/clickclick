@@ -7,20 +7,14 @@ body {
 .App {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgba(0,0,0,.75);
-  height: 100vh;
+  background-color: rgba(78, 57, 57, 0.822);
   color: white;
   overflow: hidden;
 }
 
 .App-header {
-  height: 130px;
+  height: 30px;
   padding: 20px 20px 0 20px;
-}
-
-.App-header h1 {
-  font-weight: 400;
-  font-size: 46px;
 }
 
 .App-header h2{
@@ -34,7 +28,6 @@ body {
 }
 
 .elephant-box{
-  height: 65vh;
   padding: 20px 15px;
   display: flex;
   flex-wrap: wrap;
@@ -85,4 +78,22 @@ body {
   .Board h4 {
     font-size: 14px;
   }
+}
+
+.navbar-brand:after {
+  clear: both;
+}
+
+.navbar-nav {
+  position: absolute;
+  float: right;
+}
+
+.navbar-footer {
+  position: absolute;
+  float: left;
+}
+
+.foot-link {
+  align-content: left;
 }
