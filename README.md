@@ -7,7 +7,7 @@ Why the project is useful
     It's a fun game to play for you, and it's a way to learn and practice react for me.
 
 How users can get started with the project
-    -
+    - Will need to do npm install, then npm start.
 
 Where users can get help with your project
     -
